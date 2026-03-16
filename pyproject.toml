@@ -28,8 +28,8 @@ dependencies = [
 
 [project.urls]
 Homepage = "https://reparatio.app"
-Repository = "https://github.com/jfrancis42/reparatio-sdk"
-"Bug Tracker" = "https://github.com/jfrancis42/reparatio-sdk/issues"
+Repository = "https://github.com/jfrancis42/reparatio-sdk-py"
+"Bug Tracker" = "https://github.com/jfrancis42/reparatio-sdk-py/issues"
 "MCP Server" = "https://github.com/jfrancis42/reparatio-mcp"
 "CLI Tool" = "https://github.com/jfrancis42/reparatio-cli"
 

@@ -415,6 +415,28 @@ except ParseError as e:
 
 ---
 
+## Running the Examples
+
+The repository includes 15 runnable examples covering every API method.
+
+```bash
+# clone and install
+git clone https://github.com/jfrancis42/reparatio-sdk-py
+cd reparatio-sdk-py
+pip install -e .
+
+# run all examples
+REPARATIO_API_KEY=EXAMPLE-EXAMPLE-EXAMPLE \
+python examples/examples.py
+
+# run a single example
+python -c "from examples.examples import ex_formats; ex_formats()"
+```
+
+Set `REPARATIO_API_KEY` to your API key before running. Examples that require authentication (all except `ex_formats`) will fail without a valid key.
+
+---
+
 ## Privacy
 
 Files are sent to the Reparatio API at `reparatio.app` for processing.
